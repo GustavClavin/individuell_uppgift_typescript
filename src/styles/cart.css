@@ -1,0 +1,40 @@
+*{
+    list-style: none;
+}
+
+.cartTitle{
+    padding: 1rem;
+}
+
+:hover .cartTitle{
+    cursor: pointer;
+}
+
+.openCart{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+li button{
+    margin-right: .25rem;
+    margin-top: .25rem;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: .25rem;
+    margin-bottom: 1rem;
+    
+    
+}
+.cartIMG{
+    max-height: 175px;
+    object-fit: contain;
+}
+.cartNameAndQuantity{
+    display: flex;
+    gap: .5rem;
+}

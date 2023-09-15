@@ -1,0 +1,29 @@
+.header{
+    text-align: start;
+    height: 80px;
+    background-color: grey;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+.cart{
+    
+    border: 1px solid black;
+    height: fit-content;
+    background-color: white;
+    z-index: 10;
+}
+
+.header button{
+    
+    font-size: 24px;
+    padding: 1rem;
+}
+
+:hover button{
+    cursor: pointer;
+}
